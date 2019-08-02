@@ -5,8 +5,7 @@
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start":"babel-node app.js",
-    "build":"babel A -d B"
+    "start": "babel-node src/app.js"
   },
   "repository": {
     "type": "git",
@@ -21,6 +20,7 @@
   "dependencies": {
     "babel-cli": "^6.26.0",
     "babel-preset-env": "^1.7.0",
-    "express": "^4.17.1"
+    "express": "^4.17.1",
+    "mongoose": "^4.13.9"
   }
 }
