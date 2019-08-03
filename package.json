@@ -22,7 +22,9 @@
     "babel-preset-env": "^1.7.0",
     "bluebird": "^3.5.3",
     "dotenv": "^8.0.0",
+    "ejs": "^2.5.7",
     "express": "^4.17.1",
+    "express-ejs-extend": "0.0.1",
     "mongoose": "^4.13.9"
   }
 }
