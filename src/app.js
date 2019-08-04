@@ -1,7 +1,8 @@
 import express from "express";
-import connectDB from "./config/connectDb"
-import configViewEngine from "./config/viewEngine"
-import initRoutes from './routes/web'
+import connectDB from "./config/connectDb";
+import configViewEngine from "./config/viewEngine";
+import initRoutes from './routes/web';
+import bodyParser from 'body-parser';
 
 require('dotenv').config();
 //init App
@@ -12,6 +13,9 @@ connectDB();
 
 //Config View Engine
 configViewEngine(app);
+
+//Enable Post Data 
+app.use(bodyParser.urlencoded({extended:true}));
 
 //init all Routes;
 initRoutes(app);
