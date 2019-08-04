@@ -19,5 +19,6 @@ let postRegister = (req,res) => {
 }
 module.exports = {
     loginRegister:loginRegister,
+    
     postRegister:postRegister,
 };
