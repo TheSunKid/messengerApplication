@@ -5,12 +5,7 @@
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-<<<<<<< HEAD
-    "start": "babel-node app.js",
-    "build": "babel A -d B"
-=======
     "start": "babel-node src/app.js"
->>>>>>> e82c144eb861ddea719bff0567caeef31cf495c9
   },
   "repository": {
     "type": "git",
@@ -26,15 +21,10 @@
     "babel-cli": "^6.26.0",
     "babel-preset-env": "^1.7.0",
     "bluebird": "^3.5.3",
-<<<<<<< HEAD
-    "express": "^4.17.1",
-    "mongoose": "^5.6.7"
-=======
     "dotenv": "^8.0.0",
     "ejs": "^2.5.7",
     "express": "^4.17.1",
     "express-ejs-extend": "0.0.1",
     "mongoose": "^4.13.9"
->>>>>>> e82c144eb861ddea719bff0567caeef31cf495c9
   }
 }
